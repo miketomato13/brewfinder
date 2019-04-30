@@ -18,7 +18,7 @@ class SearchBrewery extends Component {
 submitData = async (event) => {
   event.preventDefault()
   const { query } = this.state
-  const { data } = await axios.get(`https://bypasscors.herokuapp.com/api/?url=https://api.openbrewerydb.org/breweries?by_city=${query}`)
+  const { data } = await axios.get(`https://api.openbrewerydb.org/breweries?by_city=${query}`)
   this.setState({ brew: data })
 
   if (!this.state.brew.length) {

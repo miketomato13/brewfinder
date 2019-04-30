@@ -9,7 +9,7 @@ class Brew extends React.Component {
   componentDidMount(){
     const id = this.props.match.params.id
     console.log(id)
-    fetch(`https://bypasscors.herokuapp.com/api/?url=https://api.openbrewerydb.org/breweries/${id}`)
+    fetch(`https://api.openbrewerydb.org/breweries/${id}`)
       .then(response => response.json())
       .then(json => this.setState({ brewery: json }))
   }
