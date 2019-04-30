@@ -1,10 +1,1 @@
 export const API_KEY = 'pk.eyJ1IjoiYW5keXdlaXNzMTk4MiIsImEiOiJIeHpkYVBrIn0.3N03oecxx5TaQz7YLg2HqA'
-
-export const API_KEY = 'pk.eyJ1Ijoiam9yZGFubWFyY3IiLCJhIjoiY2p0aXBhM2V5MHMydTQzcDJyMXcyN2g4MSJ9.lXad_x3-iKH-UCAhxb53dA';
-export const TWITTER_CONSUMER_KEY='0ENFUJBs6fIwvDRmj16psTEea'
-export const TWITTER_CONSUMER_SECRET='fw4QTLCL2i0kDdhrVoSEPVQb0Ji2ondWnMUqkCcqrdZfYgRIOI'
-export const TWITTER_ACCESS_TOKEN='873890052-C7xqTvA0dIdvTKduBC2BB9eLcinsHwFqoVtcax1J'
-export const TWITTER_ACCESS_TOKEN_SECRET='6lcXTKN9QfgF1739R9d0js32Dwxrmligcxg52gyAPxUPu'
-
-export const PUBLISHABLE_KEY='pk_test_agDfRCtQzDquhzdcnJ4ttQMK'
-export const SECRET_KEY='sk_test_scB90yVlRAN21Ijc8W4vIcjr'
