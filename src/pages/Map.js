@@ -49,6 +49,7 @@ class Map extends Component {
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
           coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         }
+        map.flyTo({center: coordinates, speed: 0.3, zoom: 14});
         new mapboxgl.Popup()
           .setLngLat(coordinates)
           .setHTML(

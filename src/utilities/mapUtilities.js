@@ -30,5 +30,5 @@ export const breweryLayer = {
   id: 'breweries',
   type: 'symbol',
   source: 'breweries',
-  layout: { 'icon-image':'beer-15', 'icon-allow-overlap': true}
+  layout: { 'icon-image':'beer-15', 'icon-size': 2, 'icon-allow-overlap': true}
 }
